@@ -1,0 +1,6 @@
+rootProject.name='IOC_Annotation'
+include ':ioc-sample'
+include ':ioc-compiler'
+include ':ioc-annotation'
+include ':ioc-api'
+include ':lib'

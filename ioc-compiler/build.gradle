@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':ioc-annotation')
+    //google autoService
+    implementation files('libs/auto-service-1.0-rc2.jar')
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
